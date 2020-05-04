@@ -10,7 +10,10 @@ namespace purse
     {
         static void Main(string[] args)
         {
+            Money money = new Money("3456");
+            Console.WriteLine(money.info());
 
+            Console.Read();
         }
     }
 }
