@@ -10,7 +10,10 @@ namespace purse
     {
         static void Main(string[] args)
         {
+            CreditCard creditCard = new CreditCard("123456789");
+            Console.WriteLine(creditCard.info());
 
+            Console.Read();
         }
     }
 }
