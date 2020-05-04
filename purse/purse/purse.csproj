@@ -34,8 +34,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="CreditCard">
       <HintPath>..\CreditCard\bin\Debug\CreditCard.dll</HintPath>
+=======
+    <Reference Include="Money">
+      <HintPath>..\Money\bin\Debug\netstandard2.0\Money.dll</HintPath>
+>>>>>>> Money
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
