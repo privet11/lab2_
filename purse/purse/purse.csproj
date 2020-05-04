@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessCard\BusinessCardLib.csproj">
+      <Project>{b2224ce9-8817-4cd0-ae75-5f48989d5ee5}</Project>
+      <Name>BusinessCardLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
