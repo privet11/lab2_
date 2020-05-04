@@ -13,6 +13,9 @@ namespace purse
             CreditCard creditCard = new CreditCard("123456789");
             Console.WriteLine(creditCard.info());
 
+            BusinessCard card = new BusinessCard("12543");
+            Console.WriteLine(card.CardInfo());
+
             Console.Read();
         }
     }
